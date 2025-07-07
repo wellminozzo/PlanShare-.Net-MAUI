@@ -1,4 +1,6 @@
-﻿namespace PlanShare.App;
+﻿using PlanShare.App.Constants;
+
+namespace PlanShare.App;
 
 public static class MauiProgram
 {
@@ -9,8 +11,8 @@ public static class MauiProgram
             .UseMauiApp<App>()
             .ConfigureFonts(fonts =>
             {
-                fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                fonts.AddFont("OpenSans-Regular.ttf", FontFamily.MAIN_FONT_REGULAR);
+                fonts.AddFont("OpenSans-Semibold.ttf", FontFamily.MAIN_FONT_BOLD);
             });
 
 #if DEBUG

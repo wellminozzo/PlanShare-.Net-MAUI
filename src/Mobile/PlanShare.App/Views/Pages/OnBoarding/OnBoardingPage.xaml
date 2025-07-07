@@ -3,7 +3,10 @@
     x:Class="PlanShare.App.Views.Pages.OnBoarding.OnBoardingPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:fontFamily="clr-namespace:PlanShare.App.Constants"
     Shell.NavBarIsVisible="False">
+
+
 
     <VerticalStackLayout>
 
@@ -11,7 +14,7 @@
 
         <Label
             Margin="0,30,0,40"
-            FontFamily="OpenSansRegular"
+            FontFamily="{Static fontFamily:FontFamily.MAIN_FONT_REGULAR}"
             FontSize="18"
             HorizontalOptions="Center"
             Text="Tarefas pequenas, grandes resultados"
@@ -19,19 +22,15 @@
 
         <Button
             BackgroundColor="#F6F6FB"
-            CornerRadius="20"
-            FontFamily="OpenSansRegular"
-            FontSize="18"
-            HeightRequest="60"
+            Clicked="ButtonGoogle_Clicked"
             ImageSource="google_logo.png"
-            Text="Continuar com o Google" />
+            Text="Continuar com o Google"
+            TextColor="black" />
 
         <Button
             Margin="0,20,0,40"
             BackgroundColor="Black"
-            CornerRadius="20"
-            FontSize="18"
-            HeightRequest="60"
+            Clicked="ButtonLogin_Clicked"
             Text="Login com Email e Senha"
             TextColor="White" />
 
@@ -41,7 +40,7 @@
                     <Span Text="Não tem uma conta?" />
                     <Span Text=" " />
                     <Span
-                        FontFamily="OpenSansSemibold"
+                        FontFamily="{Static fontFamily:FontFamily.MAIN_FONT_BOLD}"
                         Text="Crie a sua conta!"
                         TextColor="Blue" />
                 </FormattedString>
