@@ -1,3 +1,5 @@
+using PlanShare.App.ViewModels.Pages.OnBoarding;
+
 namespace PlanShare.App.Views.Pages.OnBoarding;
 
 public partial class OnBoardingPage : ContentPage
@@ -5,15 +7,9 @@ public partial class OnBoardingPage : ContentPage
 	public OnBoardingPage()
 	{
 		InitializeComponent();
-	}
 
-    private void ButtonGoogle_Clicked(object sender, EventArgs e)
-    {
-
+		BindingContext = new OnBoardingViewModel();
     }
 
-    private void ButtonLogin_Clicked(object sender, EventArgs e)
-    {
-        
-    }
+    
 }

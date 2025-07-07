@@ -4,6 +4,8 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:fontFamily="clr-namespace:PlanShare.App.Constants"
+    xmlns:viewModel="clr-namespace:PlanShare.App.ViewModels.Pages.OnBoarding"
+    x:DataType="viewModel:OnBoardingViewModel"
     Shell.NavBarIsVisible="False">
 
 
@@ -22,19 +24,22 @@
 
         <Button
             BackgroundColor="#F6F6FB"
-            Clicked="ButtonGoogle_Clicked"
+            Command="{Binding LoginWithGoogleCommand}"
             ImageSource="google_logo.png"
             Text="Continuar com o Google"
             TextColor="black" />
 
         <Button
             Margin="0,20,0,40"
-            BackgroundColor="Black"
-            Clicked="ButtonLogin_Clicked"
+            BackgroundColor="Gray"
+            Command="{Binding LoginWihtEmailAndPasswordCommand}"
             Text="Login com Email e Senha"
             TextColor="White" />
 
         <Label FontSize="18" HorizontalOptions="Center">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding RegisterUserAccountCommand}" />
+            </Label.GestureRecognizers>
             <Label.FormattedText>
                 <FormattedString>
                     <Span Text="Não tem uma conta?" />
