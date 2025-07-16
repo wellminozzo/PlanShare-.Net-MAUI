@@ -17,6 +17,9 @@ public static class MauiProgram
             {
                 fonts.AddFont("OpenSans-Regular.ttf", FontFamily.MAIN_FONT_REGULAR);
                 fonts.AddFont("OpenSans-Semibold.ttf", FontFamily.MAIN_FONT_BOLD);
+                fonts.AddFont("WorkSans-Thin.ttf", FontFamily.MAIN_FONT_THIN);
+                fonts.AddFont("WorkSans-Black.ttf", FontFamily.SECONDARY_FONT_BLACK);
+                fonts.AddFont("WorkSans-Regular.ttf", FontFamily.SECONDARY_FONT_REGULAR);
             });
 
 #if DEBUG
