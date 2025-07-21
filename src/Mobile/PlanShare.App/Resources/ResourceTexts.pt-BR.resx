@@ -117,8 +117,47 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CHANGE_PASSWORD" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DELETE_ACCOUNT" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FOLLOWING_ERROS_WERE_FOUND" xml:space="preserve">
+    <value />
+  </data>
   <data name="LOGIN_WITH_EMAIL_PASSWORD" xml:space="preserve">
     <value>Login com Email e Senha</value>
+  </data>
+  <data name="PHRASE_ALREADY_HAS_ACCOUNT" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PHRASE_CONTINUE_WITH_GOOGLE" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PHRASE_DONT_HAVE_ACCOUNT" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PHRASE_DO_LOGIN" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PHRASE_FORGOT_YOUR_PASSWORD" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PHRASE_LOGIN" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PHRASE_PASSWORD_REQUIREMENTS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PHRASE_REGISTER_YOUR_ACCOUNT" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PHRASE_SMALL_TASKS_BIG_RESULTS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SERVER_COMMUNICATION_ERROR" xml:space="preserve">
+    <value />
   </data>
   <data name="SUBTITLE_REGISTER_ACCOUNT" xml:space="preserve">
     <value>Comande sua rotina com facilidade - porque você merece mais tempo para o que ama!</value>

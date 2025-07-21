@@ -61,11 +61,128 @@ namespace PlanShare.App.Resources {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Change password.
+        /// </summary>
+        public static string CHANGE_PASSWORD {
+            get {
+                return ResourceManager.GetString("CHANGE_PASSWORD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Delete my account.
+        /// </summary>
+        public static string DELETE_ACCOUNT {
+            get {
+                return ResourceManager.GetString("DELETE_ACCOUNT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a The following erros were found.
+        /// </summary>
+        public static string FOLLOWING_ERROS_WERE_FOUND {
+            get {
+                return ResourceManager.GetString("FOLLOWING_ERROS_WERE_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Login With Email and Password.
         /// </summary>
         public static string LOGIN_WITH_EMAIL_PASSWORD {
             get {
                 return ResourceManager.GetString("LOGIN_WITH_EMAIL_PASSWORD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Already have an account.
+        /// </summary>
+        public static string PHRASE_ALREADY_HAS_ACCOUNT {
+            get {
+                return ResourceManager.GetString("PHRASE_ALREADY_HAS_ACCOUNT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Continue with Google.
+        /// </summary>
+        public static string PHRASE_CONTINUE_WITH_GOOGLE {
+            get {
+                return ResourceManager.GetString("PHRASE_CONTINUE_WITH_GOOGLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Log in!.
+        /// </summary>
+        public static string PHRASE_DO_LOGIN {
+            get {
+                return ResourceManager.GetString("PHRASE_DO_LOGIN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Don&apos;t have an account.
+        /// </summary>
+        public static string PHRASE_DONT_HAVE_ACCOUNT {
+            get {
+                return ResourceManager.GetString("PHRASE_DONT_HAVE_ACCOUNT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Forgot your password?.
+        /// </summary>
+        public static string PHRASE_FORGOT_YOUR_PASSWORD {
+            get {
+                return ResourceManager.GetString("PHRASE_FORGOT_YOUR_PASSWORD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Login.
+        /// </summary>
+        public static string PHRASE_LOGIN {
+            get {
+                return ResourceManager.GetString("PHRASE_LOGIN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Minimun 6 characters.
+        /// </summary>
+        public static string PHRASE_PASSWORD_REQUIREMENTS {
+            get {
+                return ResourceManager.GetString("PHRASE_PASSWORD_REQUIREMENTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Create your account!.
+        /// </summary>
+        public static string PHRASE_REGISTER_YOUR_ACCOUNT {
+            get {
+                return ResourceManager.GetString("PHRASE_REGISTER_YOUR_ACCOUNT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Small tasks, big results.
+        /// </summary>
+        public static string PHRASE_SMALL_TASKS_BIG_RESULTS {
+            get {
+                return ResourceManager.GetString("PHRASE_SMALL_TASKS_BIG_RESULTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a An error ocurred while communicating with the server, Please try again later..
+        /// </summary>
+        public static string SERVER_COMMUNICATION_ERROR {
+            get {
+                return ResourceManager.GetString("SERVER_COMMUNICATION_ERROR", resourceCulture);
             }
         }
         
